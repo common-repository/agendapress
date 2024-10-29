@@ -1,0 +1,29 @@
+{
+    "name": "agendapress/agendapress",
+    "description": "AgendaPress description",
+    "keywords": ["wordpress", "plugin", "agendapress", "agenda", "event"],
+    "homepage": "https://wordpress.org/plugins/agendapress",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Md Kabir Uddin",
+            "email": "bd.kabiruddin@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Agendapress\\Includes\\": "includes",
+            "Agendapress\\Agendapress_Public\\": "public",
+            "Agendapress\\Agendapress_Admin\\": "admin"
+        },
+        "classmap": [
+            "includes",
+            "public",
+            "admin"
+        ]
+    }
+}

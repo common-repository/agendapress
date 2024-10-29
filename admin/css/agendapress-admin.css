@@ -1,0 +1,209 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ #template-style-session-style > .handlediv,
+ #template-style-session-style > h2.hndle{
+
+ }
+ .agandapress-session-type-menu-tab-single {
+    display: none;
+ }
+ #default.agandapress-session-type-menu-tab-single,
+ #plenary.agandapress-session-type-menu-tab-single {
+    display: block;
+ }
+
+
+
+ #template-style-session-style {
+
+
+ }
+ #template-style-session-style .inside {
+ 	padding: 0px;
+    margin: 0px;
+ }
+ .agandapress-session-type-menu {
+ 	margin-bottom: 0px;
+ 	    margin-bottom: -1px;
+ 	    padding: 0 15px;
+ }
+ .agandapress-session-type-menu > li {
+    display: inline-block;
+    padding: 0px 0px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin: 0 4px;
+    border-radius: 5px 5px 0 0;
+    max-width: 100px;
+    text-align: center;
+    background: #fff;
+ }
+ .agandapress-session-type-menu > li > a {
+    display: inline-block;
+    padding: 10px 20px;
+ }
+ .agandapress-session-type-menu-tab *{
+    box-sizing: border-box;
+ }
+ .agandapress-session-type-menu-tab {
+
+ 	padding: 15px;
+ 	background: #fff;
+    border-top: 1px solid #e5e5e5;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    box-sizing: border-box;
+
+ }
+
+ .agandapress-session-type-menu-tab h4 {
+ 	margin-top: 0px;
+ }
+
+
+.style-box-container{
+    width: 100%;
+    padding: 0 8px;
+}
+.style-box-row {
+    margin: 0 -8px;
+}
+.style-box-row:before,
+.style-box-row:after {
+    display: table;
+    content: ""
+}
+.style-box-row:after {
+    clear: both;
+    }
+
+ .style-box {
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-bottom: 16px;
+    float: left;
+    width: 33.3333333%
+
+ }
+
+  .style-box-inner {
+    border: 1px solid #d5d5d5;
+    padding: 10px;
+
+ }
+ 
+ .style-box-inner tr td {
+    padding: 4px 0;
+ }
+
+ .style-box-inner select,
+ .style-box-inner input[type='text'] {
+    width: 100%;
+ }
+
+ .squer-radio input {
+    display: none;
+ }
+
+  .squer-radio input + label {
+    border: 1px solid #d5d5d5;
+    font-size: 0px;
+    width: 25px;
+    display: inline-block;
+    height: 25px;
+    margin-right: 5px;   
+    padding: 5px;
+    text-align: center;
+ }
+  .squer-radio input + label svg{
+        height: 15px;
+    }
+ .squer-radio input:checked + label {
+
+background: #d5d5d5;
+ }
+
+ .column.style-box-row{
+
+        -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    -webkit-column-gap: 16px;
+    -moz-column-gap: 16px;
+    column-gap: 16px;
+    orphans: 1;
+    widows: 1;
+
+ }
+
+  .column.style-box-row .style-box {
+    display: inline-block;
+    width: 100%;
+    float: none;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+
+
+
+
+#session-general select,
+#agenda-grid-setting select {
+width: 90%;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+#agenda-grid-setting .checkbox-group,
+#agenda-grid-setting .radio-group{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#venue-general select,
+#venue-general input[type='text'],
+#speaker-general select,
+#speaker-general input[type='text'],
+#organization-general select,
+#organization-general input[type='text'] {
+    width: 100%;
+margin-top: 5px;
+margin-bottom: 5px;
+}
+
+.fc-time-grid-event .fc-content {
+    padding: 10px;
+}
+
+.fc-time-grid-event .fc-content .editlink {
+    position: absolute;
+    right: 20px;
+    top: 0px;
+    padding: 5px 10px;
+}
+
+.fc-time-grid-event .fc-content .editlink a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.fc-time-grid-event .fc-content .fc-delete {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 5px 10px;
+}
+
+[data-repeat="true"] {
+    background-color: rgba(35, 40, 45, 0.6313725490196078);
+    border-color: rgba(35, 40, 45, 0.6313725490196078);
+}
+[data-resource-id="no"] {
+opacity: 0;
+}
+body td.fc-time {
+    float: initial;
+    display: initial;
+}

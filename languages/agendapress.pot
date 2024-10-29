@@ -1,0 +1,630 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: AgendaPress\n"
+"POT-Creation-Date: 2019-06-08 08:35+0100\n"
+"PO-Revision-Date: 2019-06-08 08:30+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: agendapress.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: vendor\n"
+
+#. Plugin Name of the plugin/theme
+#: admin/class-agendapress-admin.php:143
+msgid "AgendaPress"
+msgstr ""
+
+#: admin/class-agendapress-admin.php:144
+msgid "Settings"
+msgstr ""
+
+#: admin/class-agendapress-admin.php:194
+msgid "General Settings"
+msgstr ""
+
+#: admin/class-agendapress-admin.php:501 admin/class-agendapress-admin.php:553
+#: admin/class-agendapress-admin.php:566 admin/class-agendapress-admin.php:590
+msgid "Shortcode"
+msgstr ""
+
+#: admin/class-agendapress-admin.php:513
+#: admin/partials/meta-boxes/session-general-info.php:5
+msgid "Event"
+msgstr ""
+
+#: admin/class-agendapress-admin.php:514
+#: admin/partials/meta-boxes/agenda-sessions.php:226
+#: admin/partials/meta-boxes/session-venue.php:4
+msgid "Venue"
+msgstr ""
+
+#: admin/class-agendapress-admin.php:515
+msgid "Type"
+msgstr ""
+
+#: admin/class-agendapress-admin.php:565
+#: admin/partials/meta-boxes/speaker-general-info.php:4
+msgid "Organization"
+msgstr ""
+
+#: admin/partials/meta-boxes/agenda-general-info.php:8
+#: admin/partials/meta-boxes/template-style-general-info.php:8
+msgid "Description"
+msgstr ""
+
+#: admin/partials/meta-boxes/agenda-grid-setting.php:3
+msgid "Start Date"
+msgstr ""
+
+#: admin/partials/meta-boxes/agenda-grid-setting.php:7
+msgid "End Date"
+msgstr ""
+
+#: admin/partials/meta-boxes/agenda-grid-setting.php:13
+msgid "Start Time"
+msgstr ""
+
+#: admin/partials/meta-boxes/agenda-grid-setting.php:17
+msgid "End Time"
+msgstr ""
+
+#: admin/partials/meta-boxes/agenda-grid-setting.php:23
+msgid "Time Format"
+msgstr ""
+
+#: admin/partials/meta-boxes/agenda-grid-setting.php:26
+msgid "12 Hour Clock"
+msgstr ""
+
+#: admin/partials/meta-boxes/agenda-grid-setting.php:27
+msgid "24 Hour Clock"
+msgstr ""
+
+#: admin/partials/meta-boxes/agenda-grid-setting.php:33
+msgid "Time Increments"
+msgstr ""
+
+#: admin/partials/meta-boxes/agenda-grid-setting.php:52
+msgid "Display Times in First Column"
+msgstr ""
+
+#: admin/partials/meta-boxes/agenda-sessions.php:135
+msgid "Session Title"
+msgstr ""
+
+#: admin/partials/meta-boxes/agenda-sessions.php:143
+#: admin/partials/meta-boxes/session-general-info.php:16
+msgid "Session Type"
+msgstr ""
+
+#: admin/partials/meta-boxes/agenda-sessions.php:162
+#: admin/partials/meta-boxes/session-general-info.php:74
+msgid "Repeatable"
+msgstr ""
+
+#: admin/partials/meta-boxes/agenda-sessions.php:169
+#: admin/partials/meta-boxes/session-general-info.php:81
+msgid "Summery"
+msgstr ""
+
+#: admin/partials/meta-boxes/agenda-sessions.php:191
+#: admin/partials/meta-boxes/session-general-info.php:101
+msgid "Aditional Details"
+msgstr ""
+
+#: admin/partials/meta-boxes/agenda-sessions.php:215
+#: admin/partials/meta-boxes/session-speakers.php:5
+msgid "Speaker"
+msgstr ""
+
+#: admin/partials/meta-boxes/organization-general-info.php:7
+msgid "Profile"
+msgstr ""
+
+#: admin/partials/meta-boxes/organization-general-info.php:25
+msgid "Address"
+msgstr ""
+
+#: admin/partials/meta-boxes/organization-general-info.php:33
+#: admin/partials/meta-boxes/speaker-general-info.php:53
+#: admin/partials/meta-boxes/venue-general-info.php:21
+msgid "Phone"
+msgstr ""
+
+#: admin/partials/meta-boxes/organization-general-info.php:41
+#: admin/partials/meta-boxes/speaker-general-info.php:61
+#: admin/partials/meta-boxes/venue-general-info.php:29
+msgid "Email"
+msgstr ""
+
+#: admin/partials/meta-boxes/organization-general-info.php:49
+#: admin/partials/meta-boxes/speaker-general-info.php:69
+#: admin/partials/meta-boxes/venue-general-info.php:37
+msgid "Website"
+msgstr ""
+
+#: admin/partials/meta-boxes/organization-general-info.php:58
+#: admin/partials/meta-boxes/speaker-general-info.php:77
+#: admin/partials/meta-boxes/venue-general-info.php:65
+msgid "LinkedIn"
+msgstr ""
+
+#: admin/partials/meta-boxes/organization-general-info.php:66
+#: admin/partials/meta-boxes/speaker-general-info.php:85
+#: admin/partials/meta-boxes/venue-general-info.php:73
+msgid "Facebook"
+msgstr ""
+
+#: admin/partials/meta-boxes/organization-general-info.php:74
+#: admin/partials/meta-boxes/speaker-general-info.php:93
+#: admin/partials/meta-boxes/venue-general-info.php:81
+msgid "Twitter"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:44
+#: admin/partials/meta-boxes/template-style-session-style.php:64
+msgid "Title Styling "
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:49
+#: admin/partials/meta-boxes/template-style-session-style.php:69
+msgid "Title Font"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:61
+#: admin/partials/meta-boxes/template-style-session-style.php:81
+msgid "Title Font Size"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:73
+#: admin/partials/meta-boxes/template-style-session-style.php:93
+msgid "Title Font Color"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:81
+#: admin/partials/meta-boxes/template-style-session-style.php:101
+msgid "Title Font Aligenment"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:96
+#: admin/partials/meta-boxes/template-style-session-style.php:116
+msgid "Title Font Style"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:111
+#: admin/partials/meta-boxes/template-style-session-style.php:131
+msgid "Heading"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:130
+#: admin/partials/meta-boxes/template-style-session-style.php:150
+msgid "Agenda Container Styling (Table)"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:135
+#: admin/partials/meta-boxes/session-style.php:219
+#: admin/partials/meta-boxes/template-style-session-style.php:155
+#: admin/partials/meta-boxes/template-style-session-style.php:236
+msgid "Background Color"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:143
+#: admin/partials/meta-boxes/session-style.php:227
+#: admin/partials/meta-boxes/template-style-session-style.php:163
+#: admin/partials/meta-boxes/template-style-session-style.php:244
+msgid "Border Line Style"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:160
+#: admin/partials/meta-boxes/session-style.php:244
+#: admin/partials/meta-boxes/template-style-session-style.php:180
+#: admin/partials/meta-boxes/template-style-session-style.php:261
+msgid "Border Line Width"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:174
+#: admin/partials/meta-boxes/session-style.php:258
+#: admin/partials/meta-boxes/template-style-session-style.php:194
+#: admin/partials/meta-boxes/template-style-session-style.php:275
+msgid "Border Line Color"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:182
+#: admin/partials/meta-boxes/template-style-session-style.php:202
+msgid "Background Image"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:191
+#: admin/partials/meta-boxes/session-style.php:266
+#: admin/partials/meta-boxes/template-style-session-style.php:210
+#: admin/partials/meta-boxes/template-style-session-style.php:283
+msgid "Padding"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:200
+#: admin/partials/meta-boxes/session-style.php:274
+#: admin/partials/meta-boxes/template-style-session-style.php:219
+#: admin/partials/meta-boxes/template-style-session-style.php:291
+msgid "Margin"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:214
+#: admin/partials/meta-boxes/template-style-session-style.php:231
+msgid "Secission Container Styling (Cell) "
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:286
+#: admin/partials/meta-boxes/template-style-session-style.php:303
+msgid "Speaker Styling "
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:291
+#: admin/partials/meta-boxes/template-style-session-style.php:308
+msgid "Speaker Show/Hide"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:299
+#: admin/partials/meta-boxes/template-style-session-style.php:316
+msgid "Speaker Image"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:308
+#: admin/partials/meta-boxes/template-style-session-style.php:325
+msgid "Speaker Name Font"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:321
+#: admin/partials/meta-boxes/template-style-session-style.php:338
+msgid "Speaker Name Font Size"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:335
+#: admin/partials/meta-boxes/template-style-session-style.php:351
+msgid "Speaker Name Font Color"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:344
+#: admin/partials/meta-boxes/template-style-session-style.php:360
+msgid "Speaker Font Aligenment"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:359
+#: admin/partials/meta-boxes/template-style-session-style.php:375
+msgid "Speaker Font Style"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:374
+#: admin/partials/meta-boxes/template-style-session-style.php:390
+msgid "Speaker Profile Link"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:386
+#: admin/partials/meta-boxes/template-style-session-style.php:402
+msgid "Venue Styling "
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:391
+#: admin/partials/meta-boxes/template-style-session-style.php:407
+msgid "Venue Show/Hide"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:399
+#: admin/partials/meta-boxes/template-style-session-style.php:415
+msgid "Venue Image"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:408
+#: admin/partials/meta-boxes/template-style-session-style.php:424
+msgid "Venue Font"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:420
+#: admin/partials/meta-boxes/template-style-session-style.php:436
+msgid "Venue Font Size"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:433
+#: admin/partials/meta-boxes/template-style-session-style.php:448
+msgid "Venue Font Color"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:441
+#: admin/partials/meta-boxes/template-style-session-style.php:456
+msgid "Venue Font Aligenment"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:456
+#: admin/partials/meta-boxes/template-style-session-style.php:471
+msgid "Venue Font Style"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:471
+#: admin/partials/meta-boxes/template-style-session-style.php:486
+msgid "Venue Details Link"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:483
+#: admin/partials/meta-boxes/template-style-session-style.php:498
+msgid "Organization Styling "
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:488
+#: admin/partials/meta-boxes/template-style-session-style.php:503
+msgid "Organization Show/Hide"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:496
+#: admin/partials/meta-boxes/template-style-session-style.php:511
+msgid "Organization Image"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:505
+#: admin/partials/meta-boxes/template-style-session-style.php:520
+msgid "Organization Font"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:517
+#: admin/partials/meta-boxes/template-style-session-style.php:532
+msgid "Organization Font Size"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:531
+#: admin/partials/meta-boxes/template-style-session-style.php:545
+msgid "Organization Font Color"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:540
+#: admin/partials/meta-boxes/template-style-session-style.php:554
+msgid "Organization Font Aligenment"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:555
+#: admin/partials/meta-boxes/template-style-session-style.php:569
+msgid "Organization Font Style"
+msgstr ""
+
+#: admin/partials/meta-boxes/session-style.php:570
+#: admin/partials/meta-boxes/template-style-session-style.php:584
+msgid "Organization Profile Link"
+msgstr ""
+
+#: admin/partials/meta-boxes/speaker-general-info.php:17
+msgid "Job Title"
+msgstr ""
+
+#: admin/partials/meta-boxes/speaker-general-info.php:27
+msgid "Biography"
+msgstr ""
+
+#: admin/partials/meta-boxes/speaker-general-info.php:45
+#: admin/partials/meta-boxes/venue-general-info.php:13
+msgid "Address / Location"
+msgstr ""
+
+#: admin/partials/meta-boxes/template-style-session-style.php:45
+#: admin/partials/meta-boxes/template-style-session-style.php:57
+msgid "Session Type 0"
+msgstr ""
+
+#: admin/partials/meta-boxes/template-style-session-style.php:52
+msgid "Agenda Styling"
+msgstr ""
+
+#: admin/partials/meta-boxes/venue-general-info.php:5
+msgid "Map Link"
+msgstr ""
+
+#: admin/partials/meta-boxes/venue-general-info.php:47
+msgid "Notes"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-post-meta.php:110
+#: includes/Traits/trait-agendapress-post-meta.php:128
+#: includes/Traits/trait-agendapress-post-meta.php:137
+#: includes/Traits/trait-agendapress-post-meta.php:146
+#: includes/Traits/trait-agendapress-post-meta.php:165
+#: includes/Traits/trait-agendapress-post-meta.php:211
+msgid "General Information"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-post-meta.php:119
+msgid "Session styling"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-post-meta.php:154
+msgid "Rooms"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-post-meta.php:174
+msgid "Grid Setting"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-post-meta.php:184
+msgid "Sessions"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-post-meta.php:193
+msgid "Grid"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-post-meta.php:202
+msgid "Template Style"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-post-meta.php:220
+msgid "Speakers"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-post-meta.php:228
+msgid "Session Location"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-post-meta.php:244
+msgid "Session Style"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:77
+#: includes/Traits/trait-agendapress-posts.php:112
+#: includes/Traits/trait-agendapress-posts.php:151
+#: includes/Traits/trait-agendapress-posts.php:186
+#: includes/Traits/trait-agendapress-posts.php:221
+msgid "Add New "
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:78
+#: includes/Traits/trait-agendapress-posts.php:113
+#: includes/Traits/trait-agendapress-posts.php:152
+#: includes/Traits/trait-agendapress-posts.php:187
+#: includes/Traits/trait-agendapress-posts.php:222
+msgid "New "
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:79
+#: includes/Traits/trait-agendapress-posts.php:114
+#: includes/Traits/trait-agendapress-posts.php:153
+#: includes/Traits/trait-agendapress-posts.php:188
+#: includes/Traits/trait-agendapress-posts.php:223
+msgid "Edit "
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:80
+#: includes/Traits/trait-agendapress-posts.php:115
+#: includes/Traits/trait-agendapress-posts.php:154
+#: includes/Traits/trait-agendapress-posts.php:189
+#: includes/Traits/trait-agendapress-posts.php:224
+msgid "View "
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:82
+#: includes/Traits/trait-agendapress-posts.php:117
+#: includes/Traits/trait-agendapress-posts.php:156
+#: includes/Traits/trait-agendapress-posts.php:191
+#: includes/Traits/trait-agendapress-posts.php:226
+msgid "Search "
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:83
+#: includes/Traits/trait-agendapress-posts.php:118
+#: includes/Traits/trait-agendapress-posts.php:157
+#: includes/Traits/trait-agendapress-posts.php:192
+#: includes/Traits/trait-agendapress-posts.php:227
+msgid "Parent "
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:84
+#: includes/Traits/trait-agendapress-posts.php:85
+#: includes/Traits/trait-agendapress-posts.php:119
+#: includes/Traits/trait-agendapress-posts.php:120
+#: includes/Traits/trait-agendapress-posts.php:158
+#: includes/Traits/trait-agendapress-posts.php:159
+#: includes/Traits/trait-agendapress-posts.php:193
+#: includes/Traits/trait-agendapress-posts.php:194
+#: includes/Traits/trait-agendapress-posts.php:228
+#: includes/Traits/trait-agendapress-posts.php:229
+msgid "No "
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:90
+#: includes/Traits/trait-agendapress-posts.php:125
+#: includes/Traits/trait-agendapress-posts.php:164
+#: includes/Traits/trait-agendapress-posts.php:199
+#: includes/Traits/trait-agendapress-posts.php:234
+#: includes/Traits/trait-agendapress-posts.php:269
+msgid "Description."
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:251
+msgctxt "post type general name"
+msgid "Templates"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:252
+msgctxt "post type singular name"
+msgid "Template Style"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:253
+msgctxt "admin menu"
+msgid "Templates"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:254
+msgctxt "add new on admin bar"
+msgid "Template Style"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:255
+msgctxt "template style"
+msgid "Add New"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:256
+msgid "Add New Template Style"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:257
+msgid "New Template Style"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:258
+msgid "Edit Template Style"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:259
+msgid "View Template Style"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:260
+msgid "Templates"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:261
+msgid "Search Template Styles"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:262
+msgid "Parent Template Styles:"
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:263
+msgid "No template styles found."
+msgstr ""
+
+#: includes/Traits/trait-agendapress-posts.php:264
+msgid "No template styles found in Trash."
+msgstr ""
+
+#: includes/class-agendapress.php:257
+msgid "Screen Elements"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.agendapress.net/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"AgendaPress is a powerful tool for meeting organizers to create and style "
+"agendas, orders of service, concert programs etc."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Black and White Digital Ltd"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wordpress.org/plugins/agendapress"
+msgstr ""
